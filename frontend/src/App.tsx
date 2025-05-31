@@ -1,10 +1,10 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { ThemeProvider } from '@/context/ThemeContext';
-import Layout from '@/components/common/Layout';
-import Home from '@/pages/Home';
-import Results from '@/pages/Results';
-import About from '@/pages/About';
+import Layout from "@/components/common/Layout";
+import { ThemeProvider } from "@/context/ThemeContext";
+import About from "@/pages/About";
+import ConnectionTest from "@/pages/ConnectionTest";
+import Home from "@/pages/Home";
+import Results from "@/pages/Results";
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 
 function App() {
   return (
@@ -15,6 +15,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/results" element={<Results />} />
             <Route path="/about" element={<About />} />
+            <Route path="/test" element={<ConnectionTest />} />
           </Routes>
         </Layout>
       </Router>
