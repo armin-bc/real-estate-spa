@@ -1,0 +1,268 @@
+{
+  "navigation": {
+    "home": "Startseite",
+    "results": "Ergebnisse",
+    "about": "Über uns",
+    "faq": "FAQ",
+    "team": "Team"
+  },
+  "home": {
+    "title": "Immobilien-Investitionsplattform",
+    "subtitle": "Analysieren Sie Immobilien mit KI-gestützten Erkenntnissen",
+    "description": "Erhalten Sie umfassende Analysen von Immobilieninvestitionen mit Marktdaten, Risikobewertung und Finanzprognosen.",
+    "getStarted": "Loslegen",
+    "analyze": "Immobilie analysieren",
+    "features": {
+      "smartAnalysis": {
+        "title": "Intelligente Analyse",
+        "description": "KI-gestützte Immobilienanalyse mit Echtzeit-Berechnungen"
+      },
+      "visualInsights": {
+        "title": "Visuelle Einblicke",
+        "description": "Interaktive Diagramme und umfassende Marktdaten"
+      },
+      "roiOptimization": {
+        "title": "ROI-Optimierung",
+        "description": "Maximieren Sie Ihre Rendite mit datenbasierten Empfehlungen"
+      },
+      "riskAssessment": {
+        "title": "Risikobewertung",
+        "description": "Umfassende Risikoanalyse und Minderungsstrategien"
+      }
+    },
+    "sections": {
+      "makeInformedDecisions": "Treffen Sie fundierte Investitionsentscheidungen",
+      "platformDescription": "Unsere Plattform kombiniert erweiterte Analysen mit Echtzeit-Marktdaten, um Ihnen umfassende Immobilienanalysen zu bieten. Von Cap Rates bis hin zu Cashflow-Prognosen erhalten Sie alle Erkenntnisse an einem Ort.",
+      "trustedBy": "Vertrauen von Immobilieninvestoren weltweit",
+      "comingSoon": "Demnächst verfügbar",
+      "mlPredictions": "Erweiterte ML-Vorhersagen und Markttrend-Analysen"
+    },
+    "benefits": {
+      "realTimeAnalysis": "Echtzeit-Marktanalyse",
+      "financialModeling": "Umfassende Finanzmodellierung",
+      "riskTools": "Risikobewertungstools",
+      "professionalReports": "Export professioneller Berichte"
+    },
+    "propertyDetails": "Immobiliendetails",
+    "financialInformation": "Finanzinformationen",
+    "quickPreview": "Schnellvorschau",
+    "capRate": "Cap Rate",
+    "monthlyCashFlow": "Monatlicher Cashflow",
+    "annualNetIncome": "Jährliches Nettoeinkommen",
+    "apiConnected": "API verbunden",
+    "offlineMode": "Offline-Modus",
+    "analysisError": "Analysefehler",
+    "retryConnection": "Verbindung wiederholen",
+    "runningOfflineMode": "⚠️ Im Offline-Modus. Die Analyse verwendet Grundberechnungen."
+  },
+  "form": {
+    "title": "Immobilienanalyse-Formular",
+    "addressPlaceholder": "Immobilienadresse",
+    "pricePlaceholder": "Preis",
+    "rentPlaceholder": "Monatliche Miete",
+    "expensesPlaceholder": "Monatliche Ausgaben",
+    "downPaymentPlaceholder": "Anzahlung",
+    "squareFeetPlaceholder": "Quadratmeter",
+    "bedroomsPlaceholder": "Schlafzimmer",
+    "bathroomsPlaceholder": "Badezimmer",
+    "yearBuiltPlaceholder": "Baujahr",
+    "propertyDetails": "Immobiliendetails",
+    "financialInformation": "Finanzinformationen",
+    "quickPreview": "Schnellvorschau",
+    "apiConnected": "API verbunden",
+    "offlineMode": "Offline-Modus",
+    "analysisError": "Analysefehler",
+    "retryConnection": "Verbindung wiederholen",
+    "runningOfflineMode": "⚠️ Im Offline-Modus. Die Analyse verwendet Grundberechnungen.",
+    "errors": {
+      "addressRequired": "Adresse ist erforderlich",
+      "priceRequired": "Gültiger Preis ist erforderlich",
+      "rentRequired": "Gültige monatliche Miete ist erforderlich",
+      "expensesRequired": "Gültige monatliche Ausgaben erforderlich",
+      "downPaymentRequired": "Gültige Anzahlung ist erforderlich",
+      "downPaymentExceedsPrice": "Anzahlung kann den Immobilienpreis nicht übersteigen",
+      "expensesHighComparedToRent": "Monatliche Ausgaben scheinen hoch im Vergleich zur Miete"
+    }
+  },
+  "results": {
+    "title": "Analyseergebnisse",
+    "loading": "Immobilie wird analysiert...",
+    "noData": "Keine Analysedaten verfügbar",
+    "exportPdf": "PDF exportieren",
+    "exportWord": "Word exportieren",
+    "backToAnalysis": "Zurück zur Analyse",
+    "backToForm": "Zurück zum Formular",
+    "enhancedApiAnalysis": "Erweiterte API-Analyse",
+    "basicAnalysisMode": "Basis-Analysemodus",
+    "marketAnalysis": "Marktanalyse",
+    "marketTrend": "Markttrend",
+    "competitiveRating": "Wettbewerbsbewertung",
+    "marketAverageCapRate": "Marktdurchschnitt Cap Rate",
+    "financialSummary": "Finanzübersicht",
+    "purchasePrice": "Kaufpreis",
+    "downPayment": "Anzahlung",
+    "monthlyRent": "Monatliche Miete",
+    "monthlyExpenses": "Monatliche Ausgaben",
+    "pricePerSqFt": "Preis pro m²",
+    "annualNetIncome": "Jährliches Nettoeinkommen",
+    "advancedMetrics": "Erweiterte Kennzahlen",
+    "onePercentRule": "1%-Regel",
+    "debtServiceCoverage": "Schuldendienst-Deckung",
+    "grossRentMultiplier": "Bruttomiet-Multiplikator",
+    "breakEvenRatio": "Break-Even-Verhältnis",
+    "capRate": "Cap Rate",
+    "monthlyCashFlow": "Monatlicher Cashflow",
+    "cashOnCashROI": "Cash-on-Cash-ROI",
+    "riskLevel": "Risikoniveau",
+    "vsMarketAvg": "vs {{percent}}% Marktdurchschnitt",
+    "strong": "Stark",
+    "positive": "Positiv",
+    "negative": "Negativ",
+    "annualReturn": "Jährliche Kapitalrendite",
+    "score": "Bewertung",
+    "excellent": "Ausgezeichnet",
+    "good": "Gut",
+    "average": "Durchschnittlich",
+    "belowAverage": "Unterdurchschnittlich",
+    "belowTarget": "Unter Zielwert",
+    "pass": "BESTANDEN",
+    "fail": "NICHT BESTANDEN",
+    "rentVsPurchasePrice": "Miete vs Kaufpreis",
+    "aiPoweredRecommendations": "KI-gestützte Empfehlungen",
+    "basicRecommendations": "Basis-Empfehlungen",
+    "goodInvestment": "Gute Investition",
+    "solidFundamentals": "Diese Immobilie zeigt solide Grundlagen ohne größere Probleme.",
+    "riskAssessment": "Risikobewertung",
+    "overallRiskLevel": "Gesamtrisikoniveau",
+    "propertyDetails": "Immobiliendetails",
+    "squareFeet": "Quadratmeter",
+    "bedrooms": "Schlafzimmer",
+    "bathrooms": "Badezimmer",
+    "yearBuilt": "Baujahr",
+    "analysisCompleted": "Analyse abgeschlossen am {{date}} um {{time}}",
+    "propertyId": "Immobilien-ID",
+    "connectToApi": "💡 Verbinden Sie sich mit der API für erweiterte Analysen mit Marktvergleichen und KI-Empfehlungen",
+    "chartTabs": {
+      "roiAnalysis": "ROI-Analyse",
+      "cashFlow": "Cashflow",
+      "metricsComparison": "Kennzahlen-Vergleich",
+      "marketTrends": "Markttrends"
+    },
+    "marketTrendValues": {
+      "rising": "Steigend",
+      "stable": "Stabil",
+      "declining": "Fallend"
+    },
+    "competitiveRatingValues": {
+      "excellent": "Ausgezeichnet",
+      "good": "Gut",
+      "average": "Durchschnittlich",
+      "belowaverage": "Unterdurchschnittlich"
+    },
+    "riskLevels": {
+      "low": "NIEDRIG",
+      "medium": "MITTEL",
+      "high": "HOCH"
+    },
+    "sections": {
+      "financialSummary": "Finanzübersicht",
+      "advancedMetrics": "Erweiterte Kennzahlen",
+      "basicRecommendations": "Basis-Empfehlungen",
+      "propertyDetails": "Immobiliendetails",
+      "analysisMetadata": "Analyse-Metadaten"
+    },
+    "fields": {
+      "purchasePrice": "Kaufpreis",
+      "downPayment": "Anzahlung",
+      "monthlyRent": "Monatliche Miete",
+      "monthlyExpenses": "Monatliche Ausgaben",
+      "pricePerSqFt": "Preis pro m²",
+      "annualNetIncome": "Jährliches Nettoeinkommen",
+      "onePercentRule": "1%-Regel",
+      "debtServiceCoverage": "Schuldendienst-Deckung",
+      "grossRentMultiplier": "Bruttomiet-Multiplikator",
+      "breakEvenRatio": "Break-Even-Verhältnis",
+      "squareFeet": "Quadratmeter",
+      "bedrooms": "Schlafzimmer",
+      "bathrooms": "Badezimmer",
+      "yearBuilt": "Baujahr"
+    },
+    "recommendations": {
+      "negotiateLowerPrice": "Erwägen Sie eine Preisverhandlung aufgrund der niedrigen Cap Rate.",
+      "excellentOpportunity": "Ausgezeichnete Investitionsmöglichkeit mit starken Fundamentaldaten.",
+      "negativeFlow": "Immobilie hat negativen Cashflow. Überprüfen Sie Ausgaben oder Mieteinnahmen.",
+      "onePercentFailed": "Immobilie erfüllt nicht die 1%-Regel für optimalen Cashflow."
+    }
+  },
+  "about": {
+    "title": "Über unsere Plattform",
+    "description": "Wir bieten modernste Immobilieninvestitionsanalysen mit künstlicher Intelligenz."
+  },
+  "faq": {
+    "title": "Häufig gestellte Fragen",
+    "placeholder": "FAQ-Inhalte folgen bald..."
+  },
+  "team": {
+    "title": "Unser Team",
+    "description": "Lernen Sie die Experten hinter unserer Plattform kennen"
+  },
+  "common": {
+    "loading": "Wird geladen...",
+    "error": "Ein Fehler ist aufgetreten",
+    "retry": "Erneut versuchen",
+    "close": "Schließen",
+    "save": "Speichern",
+    "cancel": "Abbrechen",
+    "submit": "Senden",
+    "back": "Zurück",
+    "next": "Weiter"
+  },
+  "theme": {
+    "light": "Heller Modus",
+    "dark": "Dunkler Modus",
+    "toggle": "Design wechseln"
+  },
+  "chart": {
+    "titles": {
+      "roiAnalysis": "ROI-Analyse",
+      "cashFlowProjection": "Cashflow-Prognose",
+      "investmentMetrics": "Investment-Kennzahlen",
+      "marketTrends": "Markttrends",
+      "analysisChart": "Analyse-Diagramm"
+    },
+    "months": {
+      "jan": "Jan",
+      "feb": "Feb",
+      "mar": "Mär",
+      "apr": "Apr",
+      "may": "Mai",
+      "jun": "Jun"
+    },
+    "metrics": {
+      "capRate": "Cap Rate",
+      "cashOnCash": "Cash-on-Cash",
+      "irr": "IRR",
+      "marketAvg": "Marktdurchschnitt"
+    },
+    "legend": {
+      "propertyROI": "Immobilien-ROI %",
+      "marketAverage": "Marktdurchschnitt %",
+      "capRate": "Cap Rate %",
+      "income": "Einkommen",
+      "expenses": "Ausgaben",
+      "cashFlow": "Cashflow",
+      "propertyValue": "Immobilienwert",
+      "marketValue": "Marktwert"
+    },
+    "period": {
+      "lastSixMonths": "Letzte 6 Monate"
+    },
+    "actions": {
+      "exportData": "Daten exportieren",
+      "fullScreen": "Vollbild"
+    },
+    "errors": {
+      "unsupported": "Diagrammtyp nicht unterstützt"
+    }
+  }
+}

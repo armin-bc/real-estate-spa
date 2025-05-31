@@ -1,0 +1,268 @@
+{
+  "navigation": {
+    "home": "Home",
+    "results": "Results",
+    "about": "About",
+    "faq": "FAQ",
+    "team": "Team"
+  },
+  "home": {
+    "title": "Real Estate Investment Platform",
+    "subtitle": "Analyze properties with AI-powered insights",
+    "description": "Get comprehensive analysis of real estate investments with market data, risk assessment, and financial projections.",
+    "getStarted": "Get Started",
+    "analyze": "Analyze Property",
+    "features": {
+      "smartAnalysis": {
+        "title": "Smart Analysis",
+        "description": "AI-powered property analysis with real-time calculations"
+      },
+      "visualInsights": {
+        "title": "Visual Insights",
+        "description": "Interactive charts and comprehensive market data"
+      },
+      "roiOptimization": {
+        "title": "ROI Optimization",
+        "description": "Maximize your returns with data-driven recommendations"
+      },
+      "riskAssessment": {
+        "title": "Risk Assessment",
+        "description": "Comprehensive risk analysis and mitigation strategies"
+      }
+    },
+    "sections": {
+      "makeInformedDecisions": "Make Informed Investment Decisions",
+      "platformDescription": "Our platform combines advanced analytics with real-time market data to provide you with comprehensive property analysis. From cap rates to cash flow projections, get all the insights you need in one place.",
+      "trustedBy": "Trusted by real estate investors worldwide",
+      "comingSoon": "Coming Soon",
+      "mlPredictions": "Advanced ML predictions and market trend analysis"
+    },
+    "benefits": {
+      "realTimeAnalysis": "Real-time market analysis",
+      "financialModeling": "Comprehensive financial modeling",
+      "riskTools": "Risk assessment tools",
+      "professionalReports": "Professional reports export"
+    },
+    "propertyDetails": "Property Details",
+    "financialInformation": "Financial Information",
+    "quickPreview": "Quick Preview",
+    "capRate": "Cap Rate",
+    "monthlyCashFlow": "Monthly Cash Flow",
+    "annualNetIncome": "Annual Net Income",
+    "apiConnected": "API Connected",
+    "offlineMode": "Offline Mode",
+    "analysisError": "Analysis Error",
+    "retryConnection": "Retry Connection",
+    "runningOfflineMode": "⚠️ Running in offline mode. Analysis will use basic calculations."
+  },
+  "form": {
+    "title": "Property Analysis Form",
+    "addressPlaceholder": "Property Address",
+    "pricePlaceholder": "Price",
+    "rentPlaceholder": "Monthly Rent",
+    "expensesPlaceholder": "Monthly Expenses",
+    "downPaymentPlaceholder": "Down Payment",
+    "squareFeetPlaceholder": "Square Feet",
+    "bedroomsPlaceholder": "Bedrooms",
+    "bathroomsPlaceholder": "Bathrooms",
+    "yearBuiltPlaceholder": "Year Built",
+    "propertyDetails": "Property Details",
+    "financialInformation": "Financial Information",
+    "quickPreview": "Quick Preview",
+    "apiConnected": "API Connected",
+    "offlineMode": "Offline Mode",
+    "analysisError": "Analysis Error",
+    "retryConnection": "Retry Connection",
+    "runningOfflineMode": "⚠️ Running in offline mode. Analysis will use basic calculations.",
+    "errors": {
+      "addressRequired": "Address is required",
+      "priceRequired": "Valid price is required",
+      "rentRequired": "Valid monthly rent is required",
+      "expensesRequired": "Valid monthly expenses required",
+      "downPaymentRequired": "Valid down payment is required",
+      "downPaymentExceedsPrice": "Down payment cannot exceed property price",
+      "expensesHighComparedToRent": "Monthly expenses seem high compared to rent"
+    }
+  },
+  "results": {
+    "title": "Analysis Results",
+    "loading": "Analyzing property...",
+    "noData": "No analysis data available",
+    "exportPdf": "Export PDF",
+    "exportWord": "Export Word",
+    "backToAnalysis": "Back to Analysis",
+    "backToForm": "Back to Form",
+    "enhancedApiAnalysis": "Enhanced API Analysis",
+    "basicAnalysisMode": "Basic Analysis Mode",
+    "marketAnalysis": "Market Analysis",
+    "marketTrend": "Market Trend",
+    "competitiveRating": "Competitive Rating",
+    "marketAverageCapRate": "Market Average Cap Rate",
+    "financialSummary": "Financial Summary",
+    "purchasePrice": "Purchase Price",
+    "downPayment": "Down Payment",
+    "monthlyRent": "Monthly Rent",
+    "monthlyExpenses": "Monthly Expenses",
+    "pricePerSqFt": "Price per Sq Ft",
+    "annualNetIncome": "Annual Net Income",
+    "advancedMetrics": "Advanced Metrics",
+    "onePercentRule": "1% Rule",
+    "debtServiceCoverage": "Debt Service Coverage",
+    "grossRentMultiplier": "Gross Rent Multiplier",
+    "breakEvenRatio": "Break-even Ratio",
+    "capRate": "Cap Rate",
+    "monthlyCashFlow": "Monthly Cash Flow",
+    "cashOnCashROI": "Cash-on-Cash ROI",
+    "riskLevel": "Risk Level",
+    "vsMarketAvg": "vs {{percent}}% market avg",
+    "strong": "Strong",
+    "positive": "Positive",
+    "negative": "Negative",
+    "annualReturn": "Annual return on investment",
+    "score": "Score",
+    "excellent": "Excellent",
+    "good": "Good",
+    "average": "Average",
+    "belowAverage": "Below Average",
+    "belowTarget": "Below Target",
+    "pass": "PASS",
+    "fail": "FAIL",
+    "rentVsPurchasePrice": "Rent vs Purchase Price",
+    "aiPoweredRecommendations": "AI-Powered Recommendations",
+    "basicRecommendations": "Basic Recommendations",
+    "goodInvestment": "Good Investment",
+    "solidFundamentals": "This property shows solid fundamentals with no major red flags.",
+    "riskAssessment": "Risk Assessment",
+    "overallRiskLevel": "Overall Risk Level",
+    "propertyDetails": "Property Details",
+    "squareFeet": "Square Feet",
+    "bedrooms": "Bedrooms",
+    "bathrooms": "Bathrooms",
+    "yearBuilt": "Year Built",
+    "analysisCompleted": "Analysis completed on {{date}} at {{time}}",
+    "propertyId": "Property ID",
+    "connectToApi": "💡 Connect to API for enhanced analysis with market comparisons and AI recommendations",
+    "chartTabs": {
+      "roiAnalysis": "ROI Analysis",
+      "cashFlow": "Cash Flow",
+      "metricsComparison": "Metrics Comparison",
+      "marketTrends": "Market Trends"
+    },
+    "marketTrendValues": {
+      "rising": "Rising",
+      "stable": "Stable",
+      "declining": "Declining"
+    },
+    "competitiveRatingValues": {
+      "excellent": "Excellent",
+      "good": "Good",
+      "average": "Average",
+      "belowaverage": "Below Average"
+    },
+    "riskLevels": {
+      "low": "LOW",
+      "medium": "MEDIUM",
+      "high": "HIGH"
+    },
+    "sections": {
+      "financialSummary": "Financial Summary",
+      "advancedMetrics": "Advanced Metrics",
+      "basicRecommendations": "Basic Recommendations",
+      "propertyDetails": "Property Details",
+      "analysisMetadata": "Analysis Metadata"
+    },
+    "fields": {
+      "purchasePrice": "Purchase Price",
+      "downPayment": "Down Payment",
+      "monthlyRent": "Monthly Rent",
+      "monthlyExpenses": "Monthly Expenses",
+      "pricePerSqFt": "Price per Sq Ft",
+      "annualNetIncome": "Annual Net Income",
+      "onePercentRule": "1% Rule",
+      "debtServiceCoverage": "Debt Service Coverage",
+      "grossRentMultiplier": "Gross Rent Multiplier",
+      "breakEvenRatio": "Break-even Ratio",
+      "squareFeet": "Square Feet",
+      "bedrooms": "Bedrooms",
+      "bathrooms": "Bathrooms",
+      "yearBuilt": "Year Built"
+    },
+    "recommendations": {
+      "negotiateLowerPrice": "Consider negotiating a lower purchase price due to low cap rate.",
+      "excellentOpportunity": "Excellent investment opportunity with strong fundamentals.",
+      "negativeFlow": "Property has negative cash flow. Review expenses or rental income.",
+      "onePercentFailed": "Property does not meet the 1% rule for optimal cash flow."
+    }
+  },
+  "about": {
+    "title": "About Our Platform",
+    "description": "We provide cutting-edge real estate investment analysis powered by artificial intelligence."
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "placeholder": "FAQ content coming soon..."
+  },
+  "team": {
+    "title": "Our Team",
+    "description": "Meet the experts behind our platform"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "retry": "Try Again",
+    "close": "Close",
+    "save": "Save",
+    "cancel": "Cancel",
+    "submit": "Submit",
+    "back": "Back",
+    "next": "Next"
+  },
+  "theme": {
+    "light": "Light Mode",
+    "dark": "Dark Mode",
+    "toggle": "Toggle Theme"
+  },
+  "chart": {
+    "titles": {
+      "roiAnalysis": "ROI Analysis",
+      "cashFlowProjection": "Cash Flow Projection",
+      "investmentMetrics": "Investment Metrics",
+      "marketTrends": "Market Trends",
+      "analysisChart": "Analysis Chart"
+    },
+    "months": {
+      "jan": "Jan",
+      "feb": "Feb",
+      "mar": "Mar",
+      "apr": "Apr",
+      "may": "May",
+      "jun": "Jun"
+    },
+    "metrics": {
+      "capRate": "Cap Rate",
+      "cashOnCash": "Cash-on-Cash",
+      "irr": "IRR",
+      "marketAvg": "Market Avg"
+    },
+    "legend": {
+      "propertyROI": "Property ROI %",
+      "marketAverage": "Market Average %",
+      "capRate": "Cap Rate %",
+      "income": "Income",
+      "expenses": "Expenses",
+      "cashFlow": "Cash Flow",
+      "propertyValue": "Property Value",
+      "marketValue": "Market Value"
+    },
+    "period": {
+      "lastSixMonths": "Last 6 months"
+    },
+    "actions": {
+      "exportData": "Export Data",
+      "fullScreen": "Full Screen"
+    },
+    "errors": {
+      "unsupported": "Chart type not supported"
+    }
+  }
+}
