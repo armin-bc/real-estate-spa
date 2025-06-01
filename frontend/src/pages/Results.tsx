@@ -1,5 +1,5 @@
 import PropertyChart from "@/components/charts/PropertyChart";
-//import { ExportService } from "@/utils/exportService";
+import { ExportService } from "@/utils/exportService";
 import {
   AlertTriangle,
   ArrowLeft,
@@ -217,29 +217,28 @@ const Results: React.FC = () => {
   };
 
   const handleExportPDF = async () => {
-    // if (!analysisData) return;
-    // try {
-    //   const exportData = ExportService.prepareExportData(analysisData);
-    //   await ExportService.exportToPDF(exportData);
-    // } catch (error) {
-    //   console.error("PDF export error:", error);
-    //   alert("PDF export failed. Please try again.");
-    // }
-    console.log("PDF export - coming soon!");
-    alert("PDF export functionality coming soon!");
+    if (!analysisData) return;
+    try {
+      const exportData = ExportService.prepareExportData(analysisData);
+      await ExportService.exportToPDF(exportData);
+    } catch (error) {
+      console.error("PDF export error:", error);
+      alert("PDF export failed. Please try again.");
+      return;
+    }
+    console.log("PDF export completed");
   };
 
   const handleExportWord = async () => {
-    // if (!analysisData) return;
-    // try {
-    //   const exportData = ExportService.prepareExportData(analysisData);
-    //   await ExportService.exportToWord(exportData);
-    // } catch (error) {
-    //   console.error("Word export error:", error);
-    //   alert("Word export failed. Please try again.");
-    // }
+    if (!analysisData) return;
+    try {
+      const exportData = ExportService.prepareExportData(analysisData);
+      await ExportService.exportToWord(exportData);
+    } catch (error) {
+      console.error("Word export error:", error);
+      alert("Word export failed. Please try again.");
+    }
     console.log("Word export - coming soon!");
-    alert("Word export functionality coming soon!");
   };
 
   const getRiskColor = (level: string) => {
